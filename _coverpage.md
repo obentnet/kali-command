@@ -10,3 +10,4 @@
 
 
 [Get Started](#前言)
+[给个star~](https://github.com/obentnet/kali-command)

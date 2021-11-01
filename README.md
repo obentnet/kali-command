@@ -20,7 +20,7 @@ kali是一个功能性比较强的linux系统。
 ### 鸣谢名单
 | 昵称 | 金额 | 时间 |
 | --------   | :-----  | :----- |
-| 无~ | 无~ | 无~ |
+| 奇趣保罗 | 5￥ | 2021-11-1 |
 
 
 # 奇淫巧技
@@ -72,13 +72,13 @@ Windows端可以使用cmd来进行ssh操控。
 | 存活主机识别 | [arping](/zh-CN/01-Infomation-Gathering/arping?id=arping) |
 |         | [fping](/zh-CN/01-Infomation-Gathering/fping?id=fping) |
 |         | [hping3](/zh-CN/01-Infomation-Gathering/hping3?id=hping3) |
-|         | masscan |
-|         | thcping6 |
+|         | [masscan](/zh-CN/01-Infomation-Gathering/masscan?id=masscan) |
+|         | [thcping6](/zh-CN/01-Infomation-Gathering/thcping6?id=thcping6) |
 
 ## 路由分析
 | 分类        | 工具   | 
 | --------   | :-----  |
-| 路由分析 | netdiscover |
+| 路由分析 | [netdiscover](/zh-CN/01-Infomation-Gathering/netdiscover?id=netdiscover) |
 |         | netmask |
 
 ## 情报分析
