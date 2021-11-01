@@ -71,7 +71,7 @@ Windows端可以使用cmd来进行ssh操控。
 | --------   | :-----  |
 | 存活主机识别 | [arping](/zh-CN/01-Infomation-Gathering/arping?id=arping) |
 |         | [fping](/zh-CN/01-Infomation-Gathering/fping?id=fping) |
-|         | hping3 |
+|         | [hping3](/zh-CN/01-Infomation-Gathering/hping3?id=hping3) |
 |         | masscan |
 |         | thcping6 |
 
