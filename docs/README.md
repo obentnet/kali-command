@@ -15,7 +15,7 @@ kali是一个功能性比较强的linux系统。
 ## 鸣谢
 如果你对本项目感兴趣，或者本项目帮助了你。  
 请赞助我们！  
-![donate](/images/donate.png)
+![donate](https://cdn.jsdelivr.net/gh/obentnet/kali-command/cdn/images/donate.png)
 
 ### 鸣谢名单
 | 昵称 | 金额 | 时间 |
@@ -36,12 +36,12 @@ Kali官网：[kali.org](https://kali.org/)
 我这个版本虚拟机内是有中文语言包的，然后更换中文也很简单。  
 直接打开Terminal终端，输入`dpkg-reconfigure locales`并回车
 
-![dpkg-reconfigure locales](/images/奇淫巧技-kali更换语言-01.png)
+![dpkg-reconfigure locales](https://cdn.jsdelivr.net/gh/obentnet/kali-command/cdn/images/skills-kali-change-language-01.png)
 
 按一下空格，进入后一直往下找，找到 `zh_CN.UTF-8 UTF-8` 后,空格选中后回车两次  
 选中小键盘往下选择`zh_CN.UTF-8 UTF-8`  
 
-![dpkg-reconfigure locales](/images/奇淫巧技-kali更换语言-02.png)  
+![dpkg-reconfigure locales](https://cdn.jsdelivr.net/gh/obentnet/kali-command/cdn/images/skills-kali-change-language-02.png)  
 
 回车，然后就会开始处理，等到出现 `Generation complete.`这行字的时候，  
 输入`sudo reboot`重启kali，再次进入系统你就会发现已经是中文了。  
@@ -59,7 +59,7 @@ Windows端可以使用cmd来进行ssh操控。
 命令格式：  
 `ssh -p22 kali@127.0.0.1`  
 
-![img](/images/奇淫巧技-kali打开ssh服务-windows.png)  
+![img](https://cdn.jsdelivr.net/gh/obentnet/kali-command/cdn/images/skills-kali-open-ssh-service-windows.png)  
 
 当然更建议使用putty等工具来进行远程。  
 
@@ -143,15 +143,246 @@ Windows端可以使用cmd来进行ssh操控。
 |         | maltego |
 
 # 02-漏洞分析
+## Fuzzing工具集
+| 分类        | 工具   | 
+| --------   | :-----  |
+| Fuzzing工具集 | spike-generic_chunked |
+|         | spike-generic_tcp |
+|         | spike-generic_listen_tcp |
+|         | spike-generic_send_tcp |
+|         | spike-generic_send_udp |
+
+## VoIP工具集
+| 分类        | 工具   | 
+| --------   | :-----  |
+| VoIP工具集 | voiphopper |
+
+## 其他
+| 分类        | 工具   | 
+| --------   | :-----  |
+| 其他 | legion |
+|         | nikto |
+|         | nmap |
+|         | unix-privesc-check |
 # 03-Web程序
+## CMS识别
+| 分类        | 工具   | 
+| --------   | :-----  |
+| CMS识别 | wpscan |
+
+## Web漏洞扫描
+| 分类        | 工具   | 
+| --------   | :-----  |
+| Web漏洞扫描 | cadaver |
+|         | davtest |
+|         | nikto |
+|         | skipfish |
+|         | wapiti |
+|         | whatweb |
+|         | wpscan |
+
+## Web爬行
+| 分类        | 工具   | 
+| --------   | :-----  |
+| Web爬行 | cutycapt |
+|         | dirb |
+|         | dirbuster |
+|         | wfuzz |
+
+## Web应用代理
+| 分类        | 工具   | 
+| --------   | :-----  |
+| Web应用代理 | burpsuite |
+
+## 其他
+| 分类        | 工具   | 
+| --------   | :-----  |
+| 其他 | commix |
+|         | skipfish |
+|         | sqlmap |
+|         | wpscan |
+|         | ZAP |
+
 # 04-数据库评估软件
+| 分类        | 工具   | 
+| --------   | :-----  |
+| ALL | SQLite database browser |
+|         | skipfish |
+|         | sqlmap |
+
 # 05-密码攻击
+## 哈希工具集
+| 分类        | 工具   | 
+| --------   | :-----  |
+| 哈希工具集 | mimikatz |
+|         | pth-curl |
+|         | pth-net |
+|         | pth-rpcclient |
+|         | pth-smbclient |
+|         | pth-smbget |
+|         | pth-sqsh |
+|         | pth-winexe |
+|         | pth-wmic |
+|         | pth-wmis |
+|         | pth-xfreedp |
+|         | smbmap |
+
+## 离线密码攻击
+| 分类        | 工具   | 
+| --------   | :-----  |
+| 离线密码攻击 | chntpw |
+|         | hashcat |
+|         | hashid |
+|         | hash-identifier |
+|         | ophcrack-cli |
+|         | samdump2 |
+
+## 在线攻击
+| 分类        | 工具   | 
+| --------   | :-----  |
+| 在线攻击 | hydra |
+|         | hydra-gtk |
+|         | onesixtyone |
+|         | patator |
+|         | thc-pptp-bruter |
+
+## Password Profilling & Wordlists
+| 分类        | 工具   | 
+| --------   | :-----  |
+| Password Profilling & Wordlists | cewl |
+|         | crunch |
+|         | rsmangler |
+|         | wordlists |
+
+## 其他
+| 分类        | 工具   | 
+| --------   | :-----  |
+| 其他 | cewl |
+|         | crunch |
+|         | hashcat |
+|         | john |
+|         | medusa |
+|         | ncrack |
+|         | ophcrack |
+|         | wordlists |
+
 # 06-无线攻击
+## 蓝牙工具集
+| 分类        | 工具   | 
+| --------   | :-----  |
+| 蓝牙工具集 | spooftooph |
+
+## 无线工具集
+| 分类        | 工具   | 
+| --------   | :-----  |
+| 无线工具集 | bully |
+|         | fern wifi cracker |
+
+## 其他
+| 分类        | 工具   | 
+| --------   | :-----  |
+| 其他 | airrack-ng |
+|         | fern wifi cracker |
+|         | kismet |
+|         | pixiewps |
+|         | reaver |
+|         | wifiite |
+
 # 07-逆向工程
+| 分类        | 工具   | 
+| --------   | :-----  |
+| 逆向工程 | clang |
+|         | clang++ |
+|         | MASM shell |
+|         | radare2 |
+
 # 08-漏洞利用工具集
+| 分类        | 工具   | 
+| --------   | :-----  |
+| 漏洞利用工具集 | metasploit freamwork |
+|         | msf payload creator |
+|         | searchsploit |
+|         | social engineering toolkit |
+|         | sqlmap |
+
 # 09-嗅探/欺骗
+## 网络欺骗
+| 分类        | 工具   | 
+| --------   | :-----  |
+| 网络欺骗 | dnschef |
+|         | rebind |
+|         | sslplit |
+|         | tcpreplay |
+
+## 网络嗅探
+| 分类        | 工具   | 
+| --------   | :-----  |
+| 网络嗅探 | dnschef |
+|         | netsniff-ng |
+
+## 其他
+| 分类        | 工具   | 
+| --------   | :-----  |
+| 其他 | ettercap-graphical |
+|         | macchanger |
+|         | mitmproxy |
+|         | netsniff-ng |
+|         | responder |
+|         | wireshark |
+
 # 10-权限维持
+## 系统后门
+| 分类        | 工具   | 
+| --------   | :-----  |
+| 系统后门 | dbd |
+|         | powersploit |
+|         | sbd |
+
+## Tunnel工具集
+| 分类        | 工具   | 
+| --------   | :-----  |
+| Tunnel工具集 | dbd |
+|         | dns2tcpc |
+|         | dns2tcpd |
+|         | exe2hex |
+|         | iodine |
+|         | miredo |
+|         | proxychains4 |
+|         | proxytunnel |
+|         | pwnat |
+|         | sslh |
+|         | stunnel4 |
+|         | udptunnel |
+
+## Web后门
+| 分类        | 工具   | 
+| --------   | :-----  |
+| Web后门 | laudanum |
+|         | weevely |
+
+# 其他
+| 分类        | 工具   | 
+| --------   | :-----  |
+| 其他 | exe2hex |
+|         | mimikatz |
+|         | powersploit |
+|         | proxychains4 |
+|         | weevely |
+
 # 11-数字取证
+## 取证分割工具集
+| 分类        | 工具   | 
+| --------   | :-----  |
+| 取证分割工具集 | magicrescue |
+|         | scalpel |
+|         | scrounge-ntfs |
+
+## 取证镜像工具集
+| 分类        | 工具   | 
+| --------   | :-----  |
+| 取证镜像工具集 | guymager |
+
+
 # 12-报告工具集
 # 13-Social Engineering Tools
 # 43-Kali & OffSec Links
