@@ -37,3 +37,13 @@ Kali Linux提供的netdiscover工具，就是借助该协议实施主机发现�
 
 ### 查看网络信息
 命令`ifconfig`
+
+![img](/images/netdiscover/netdiscover-01.png)
+
+### 扫描本地网络主机
+
+命令: `netdiscover -r 10.50.98.0/24`  
+
+命令解释: `netdiscover -r IP/24`
+
+![img](/images/netdiscover/netdiscover-02.png)

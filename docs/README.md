@@ -79,7 +79,7 @@ Windows端可以使用cmd来进行ssh操控。
 | 分类        | 工具   | 
 | --------   | :-----  |
 | 路由分析 | [netdiscover](/zh-CN/01-Infomation-Gathering/netdiscover?id=netdiscover) |
-|         | netmask |
+|         | [netmask](/zh-CN/01-Infomation-Gathering/netmask?id=netmask) | 
 
 ## 情报分析
 | 分类        | 工具   | 
